@@ -1,4 +1,76 @@
-<svg width="47" height="37" viewBox="0 0 47 37" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M15.5092 1.89746H35.3259L20.7566 23.6923H0.939941L15.5092 1.89746Z" fill="#42E0CE"/>
-<path d="M16.3771 25.7122L10.7341 34.1539H31.4908L46.0601 12.3591H30.7403L21.8141 25.7122H16.3771Z" fill="#A14FD6"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="210mm"
+   viewBox="0 0 210 210"
+   version="1.1"
+   id="svg1"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <linearGradient
+       xlink:href="#linearGradient33"
+       id="linearGradient34"
+       x1="152.06"
+       y1="272.50684"
+       x2="159.0804"
+       y2="281.37439"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       id="linearGradient33">
+      <stop
+         style="stop-color:#ffdd55;stop-opacity:1;"
+         offset="0"
+         id="stop33" />
+      <stop
+         style="stop-color:#ff9955;stop-opacity:1"
+         offset="1"
+         id="stop34" />
+    </linearGradient>
+    <linearGradient
+       xlink:href="#linearGradient33"
+       id="linearGradient35"
+       gradientUnits="userSpaceOnUse"
+       x1="152.01907"
+       y1="274.47055"
+       x2="159.57077"
+       y2="280.88217" />
+    <linearGradient
+       xlink:href="#linearGradient33"
+       id="linearGradient1"
+       gradientUnits="userSpaceOnUse"
+       x1="152.01907"
+       y1="274.47055"
+       x2="159.57077"
+       y2="280.88217" />
+  </defs>
+  <g
+     id="layer1">
+    <circle
+       style="display:none;fill:#666666;stroke-width:0.31334"
+       id="path1"
+       cx="105.07396"
+       cy="104.50009"
+       r="104.50421" />
+    <g
+       id="g29-9"
+       transform="matrix(8.0537076,0,0,8.0537076,-1144.8999,-2130.3019)"
+       style="fill:url(#linearGradient34);fill-opacity:1">
+      <rect
+         style="fill:url(#linearGradient1);fill-opacity:1;stroke:#000000;stroke-width:0.270037;stroke-opacity:0"
+         id="rect24-4"
+         width="7.1999998"
+         height="10"
+         x="155.68109"
+         y="276.3316" />
+      <path
+         id="rect25-8"
+         style="fill:url(#linearGradient35);fill-opacity:1;stroke:#000000;stroke-width:0.36275;stroke-opacity:0"
+         d="m 148.48225,268.83306 h 7.19997 v 7.49799 l -7.19997,7.43312 z" />
+    </g>
+  </g>
 </svg>
