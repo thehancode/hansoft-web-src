@@ -6,7 +6,9 @@ const { src = '/robo-hero.webp' } = Astro.props
 
 <section id="hero-section" class="hero my-24">
   <div class="container">
-    <div class="grid grid-cols-1 items-center gap-24 lg:grid-cols-2">
+    <div
+      class="gridhttp://localhost:4321/robo-hero.webp http://localhost:4321/robo-hero.webp http://localhost:4321/robo-hero.webp http://localhost:4321/robo-hero.webp http://localhost:4321/robo-hero.webp http://localhost:4321/robo-hero.webp http://localhost:4321/robo-hero.webp -cols-1 grid items-center gap-24 lg:grid-cols-2"
+    >
       <div class="flex flex-col items-center gap-8 md:items-start">
         <h1 class="unselectable text-center text-6xl md:text-left lg:text-8xl">
           <slot><span class="text-gradient">AI</span> can help you <span class="text-gradient">GROW</span></slot>
@@ -22,7 +24,7 @@ const { src = '/robo-hero.webp' } = Astro.props
           </a>
         </div>
       </div>
-      <img class="hidden lg:block" src={src} alt="" decoding="async" />
+      <img class="mx-auto w-1/2 max-w-full lg:block lg:w-auto" src={src} alt="" decoding="async" />
     </div>
   </div>
 </section>
