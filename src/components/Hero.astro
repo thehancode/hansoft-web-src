@@ -4,21 +4,21 @@ import { Icon } from 'astro-icon/components'
 const { src = '/robo-hero.png' } = Astro.props
 ---
 
-<section class="hero my-24">
+<section id="hero-section" class="hero my-24">
   <div class="container">
     <div class="grid grid-cols-1 items-center gap-24 lg:grid-cols-2">
       <div class="flex flex-col items-center gap-8 md:items-start">
-        <h1 class="text-center text-6xl md:text-left lg:text-8xl">
-          <slot><span class="text-gradient">Automatic AI</span> that sells</slot>
+        <h1 class="unselectable text-center text-6xl md:text-left lg:text-8xl">
+          <slot><span class="text-gradient">AI</span> can help you <span class="text-gradient">GROW</span></slot>
         </h1>
         <div class="flex flex-col gap-3 min-[500px]:flex-row">
           <a class="button has-icon" href="https://calendly.com/the-hancode1/30min">
             <Icon name="ion:star-outline" />
             Book a call
           </a>
-          <a class="button has-icon color-secondary" href="#">
+          <a class="button has-icon color-secondary" href="#list-cards-section">
             <Icon name="ion:bookmark-outline" />
-            See products
+            See More
           </a>
         </div>
       </div>
@@ -34,7 +34,12 @@ const { src = '/robo-hero.png' } = Astro.props
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
-
+  .unselectable {
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Standard */
+  }
   :global(.darkmode .text-gradient) {
     background: linear-gradient(315deg, var(--primary-200) 25%, var(--secondary-400));
     background-clip: border-box;
