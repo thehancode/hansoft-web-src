@@ -23,7 +23,7 @@ git checkout HEAD .gitignore || {
 }
 
 # Move contents of dist to root
-mv dist/* dist/.* . 2>/dev/null || {
+mv dist/* dist/.* . || {
   echo "Failed to move dist contents"
   exit 1
 }
